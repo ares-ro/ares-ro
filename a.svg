@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="12" stdDeviation="24" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- 배경 (투명) -->
+  <rect width="1200" height="280" fill="transparent"/>
+
+  <!-- 반투명 패널 -->
+  <rect x="60" y="30" rx="18" ry="18" width="1080" height="220"
+        fill="#F3F6FA" fill-opacity="0.80" stroke="#D6DCE3" stroke-opacity="0.6" filter="url(#shadow)"/>
+
+  <!-- 타이틀 -->
+  <text x="50%" y="40%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="32" font-weight="700" fill="#0B1C2A">
+    👋 안녕하세요, a입니다
+  </text>
+
+  <!-- 서브텍스트 / 스택 -->
+  <text x="50%" y="66%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="14" fill="#2D4B5B" opacity="0.9">
+    C#
+  </text>
+
+  <!-- 작은 구분선 (선택적) -->
+  <line x1="360" x2="840" y1="192" y2="192" stroke="#D6DCE3" stroke-opacity="0.5" stroke-width="1"/>
+</svg>
