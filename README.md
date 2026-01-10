@@ -8,5 +8,5 @@
 </div>
 <div style="text-align: left;">
     <h1 style="border-bottom: 50px solid #d8dee4; color: #282d33;">● Blog</h1>
-    <img src="https://img.shields.io/badge/Tistory-FF4040?style=flat-square&logo=Tistory&logoColor=white&link=a">
+    <a href=ares-ro.tistory.com> <img src="https://img.shields.io/badge/Tistory-FF4040?style=flat-square&logo=Tistory&logoColor=white&link="ares-ro.tistory.com"> </a>
 </div>
